@@ -1,14 +1,19 @@
 {
   "name": "lit-presentation",
   "private": true,
+  "homepage": "https://rtemision.github.io/lit-presentation/",
   "scripts": {
     "build": "slidev build",
     "start": "slidev --open",
-    "export": "slidev export"
+    "export": "slidev export",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@slidev/cli": "^0.40.3",
     "@slidev/theme-default": "*",
     "@slidev/theme-seriph": "*"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
