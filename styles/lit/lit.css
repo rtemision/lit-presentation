@@ -1,0 +1,31 @@
+.lit {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 68px;
+  align-items: end;
+
+  &__tagline {
+    position: relative;
+  }
+
+  .lit__text {
+    display: grid;
+    grid-template-columns: 100%;
+    row-gap: 10px;
+    font-size: 32px;
+    font-weight: 800;
+    white-space: nowrap;
+
+    p {
+      margin: 0;
+      line-height: 1;
+    }
+  }
+
+  &__vrum-vrum {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 400px;
+  }
+}

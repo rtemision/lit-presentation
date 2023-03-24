@@ -1,0 +1,13 @@
+.end {
+  &__lit-word {
+    width: 80%;
+  }
+
+  &__time-to-lit {
+    position: absolute;
+    right: 48px;
+    bottom: 32px;
+    width: 33%;
+    z-index: 9;
+  }
+}

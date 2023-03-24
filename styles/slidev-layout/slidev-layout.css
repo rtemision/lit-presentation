@@ -1,0 +1,11 @@
+.slidev-layout {
+  padding: 32px 48px;
+
+  h1 + p {
+    opacity: 1;
+  }
+
+  &.two-columns {
+    column-gap: 16px;
+  }
+}
